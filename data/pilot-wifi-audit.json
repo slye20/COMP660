@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "Observed failures are retained; latency estimates are success-conditioned"
+  ],
+  "measurements": 3750,
+  "all_observations": 4332,
+  "configurations": 25,
+  "status_counts": {
+    "ok": 3697,
+    "error": 53
+  },
+  "http_versions": {
+    "HTTP/2": 1497
+  },
+  "tls_versions": {
+    "TLSv1.3": 2947
+  },
+  "warm_reconnections": 26,
+  "failure_details": [
+    {
+      "resolver": "quad9",
+      "protocol": "dot",
+      "error": "EOFError: EOF",
+      "count": 50
+    },
+    {
+      "resolver": "quad9",
+      "protocol": "doh",
+      "error": "RemoteProtocolError: Server disconnected",
+      "count": 3
+    }
+  ]
+}

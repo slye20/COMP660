@@ -1,0 +1,21 @@
+# Fixed, small cache-favored workload. No randomized NXDOMAIN names.
+example.com
+example.org
+iana.org
+ietf.org
+icann.org
+wikipedia.org
+mozilla.org
+python.org
+github.com
+unc.edu
+mit.edu
+stanford.edu
+berkeley.edu
+cornell.edu
+princeton.edu
+harvard.edu
+w3.org
+kernel.org
+debian.org
+ubuntu.com

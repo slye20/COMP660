@@ -1,0 +1,7052 @@
+[
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 14,
+    "domains": [
+      "debian.org",
+      "princeton.edu",
+      "example.com",
+      "w3.org",
+      "mozilla.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 4,
+    "domains": [
+      "example.com",
+      "debian.org",
+      "ietf.org",
+      "stanford.edu",
+      "princeton.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 1,
+    "domains": [
+      "example.com",
+      "w3.org",
+      "iana.org",
+      "harvard.edu",
+      "kernel.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 22,
+    "domains": [
+      "debian.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "mit.edu",
+      "berkeley.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 17,
+    "domains": [
+      "iana.org",
+      "wikipedia.org",
+      "ietf.org",
+      "mit.edu",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 27,
+    "domains": [
+      "harvard.edu",
+      "example.org",
+      "wikipedia.org",
+      "cornell.edu",
+      "w3.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 26,
+    "domains": [
+      "ubuntu.com",
+      "unc.edu",
+      "w3.org",
+      "wikipedia.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 21,
+    "domains": [
+      "berkeley.edu",
+      "ietf.org",
+      "princeton.edu",
+      "example.org",
+      "icann.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "doh",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "dot",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "dot",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 12,
+    "domains": [
+      "mit.edu",
+      "princeton.edu",
+      "w3.org",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 8,
+    "domains": [
+      "debian.org",
+      "unc.edu",
+      "wikipedia.org",
+      "w3.org",
+      "ubuntu.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 15,
+    "domains": [
+      "cornell.edu",
+      "berkeley.edu",
+      "icann.org",
+      "ubuntu.com",
+      "example.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 11,
+    "domains": [
+      "ubuntu.com",
+      "princeton.edu",
+      "python.org",
+      "stanford.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 9,
+    "domains": [
+      "kernel.org",
+      "stanford.edu",
+      "mit.edu",
+      "wikipedia.org",
+      "unc.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 7,
+    "domains": [
+      "w3.org",
+      "iana.org",
+      "example.com",
+      "stanford.edu",
+      "cornell.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 28,
+    "domains": [
+      "unc.edu",
+      "ubuntu.com",
+      "princeton.edu",
+      "mit.edu",
+      "debian.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "do53",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "nextdns",
+    "protocol": "do53",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 10,
+    "domains": [
+      "kernel.org",
+      "w3.org",
+      "python.org",
+      "debian.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 24,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "debian.org",
+      "ietf.org",
+      "mit.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 23,
+    "domains": [
+      "stanford.edu",
+      "example.com",
+      "mit.edu",
+      "berkeley.edu",
+      "debian.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 0,
+    "domains": [
+      "berkeley.edu",
+      "stanford.edu",
+      "kernel.org",
+      "example.com",
+      "example.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "cloudflare",
+    "protocol": "doh",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "doh",
+    "block": 6,
+    "domains": [
+      "icann.org",
+      "debian.org",
+      "github.com",
+      "stanford.edu",
+      "ubuntu.com"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 5,
+    "domains": [
+      "iana.org",
+      "mit.edu",
+      "github.com",
+      "ubuntu.com",
+      "wikipedia.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "dot",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 13,
+    "domains": [
+      "w3.org",
+      "cornell.edu",
+      "kernel.org",
+      "berkeley.edu",
+      "mozilla.org"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "doh",
+    "block": 16,
+    "domains": [
+      "wikipedia.org",
+      "princeton.edu",
+      "kernel.org",
+      "example.org",
+      "stanford.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "dot",
+    "block": 19,
+    "domains": [
+      "debian.org",
+      "github.com",
+      "ubuntu.com",
+      "w3.org",
+      "mit.edu"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "do53",
+    "block": 3,
+    "domains": [
+      "python.org",
+      "example.org",
+      "iana.org",
+      "princeton.edu",
+      "ietf.org"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "quad9",
+    "protocol": "do53",
+    "block": 29,
+    "domains": [
+      "debian.org",
+      "w3.org",
+      "ubuntu.com",
+      "mozilla.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "doh",
+    "block": 2,
+    "domains": [
+      "harvard.edu",
+      "stanford.edu",
+      "unc.edu",
+      "icann.org",
+      "example.com"
+    ],
+    "states": [
+      "warm",
+      "cold"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 18,
+    "domains": [
+      "icann.org",
+      "github.com",
+      "kernel.org",
+      "w3.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  },
+  {
+    "resolver": "google",
+    "protocol": "do53",
+    "block": 25,
+    "domains": [
+      "w3.org",
+      "python.org",
+      "berkeley.edu",
+      "kernel.org",
+      "cornell.edu"
+    ],
+    "states": [
+      "stateless"
+    ]
+  },
+  {
+    "resolver": "opendns",
+    "protocol": "dot",
+    "block": 20,
+    "domains": [
+      "icann.org",
+      "ubuntu.com",
+      "example.com",
+      "example.org",
+      "harvard.edu"
+    ],
+    "states": [
+      "cold",
+      "warm"
+    ]
+  }
+]

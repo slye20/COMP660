@@ -1,0 +1,6 @@
+{
+  "broadband": {"added_rtt_ms": 10.0, "downlink_jitter_ms": 2.0, "downlink_loss_pct": 0.0, "downlink_mbit": 100.0, "optional_corrupt_pct": 0.0, "optional_duplicate_pct": 0.0},
+  "4g": {"added_rtt_ms": 53.3, "downlink_jitter_ms": 1.0, "downlink_loss_pct": 0.5, "downlink_mbit": 22.1, "optional_corrupt_pct": 0.01, "optional_duplicate_pct": 0.01},
+  "lossy": {"added_rtt_ms": 53.3, "downlink_jitter_ms": 1.0, "downlink_loss_pct": 1.5, "downlink_mbit": 22.1, "optional_corrupt_pct": 0.05, "optional_duplicate_pct": 0.1},
+  "high-latency": {"added_rtt_ms": 150.0, "downlink_jitter_ms": 8.0, "downlink_loss_pct": 2.1, "downlink_mbit": 1.0, "optional_corrupt_pct": 0.02, "optional_duplicate_pct": 0.02}
+}

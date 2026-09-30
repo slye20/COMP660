@@ -1,0 +1,168 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "Observed failures are retained; latency estimates are success-conditioned"
+  ],
+  "measurements": 3750,
+  "all_observations": 4318,
+  "configurations": 25,
+  "status_counts": {
+    "ok": 3387,
+    "error": 329,
+    "timeout": 34
+  },
+  "http_versions": {
+    "HTTP/2": 1375
+  },
+  "tls_versions": {
+    "TLSv1.3": 2664
+  },
+  "warm_reconnections": 170,
+  "failure_details": [
+    {
+      "resolver": "quad9",
+      "protocol": "dot",
+      "error": "EOFError: EOF",
+      "count": 56
+    },
+    {
+      "resolver": "quad9",
+      "protocol": "doh",
+      "error": "RemoteProtocolError: Server disconnected",
+      "count": 4
+    },
+    {
+      "resolver": "quad9",
+      "protocol": "dot",
+      "error": "Timeout: The DNS operation timed out.",
+      "count": 1
+    },
+    {
+      "resolver": "nextdns",
+      "protocol": "do53",
+      "error": "Timeout: The DNS operation timed out.",
+      "count": 9
+    },
+    {
+      "resolver": "opendns",
+      "protocol": "do53",
+      "error": "Timeout: The DNS operation timed out.",
+      "count": 1
+    },
+    {
+      "resolver": "nextdns",
+      "protocol": "doh",
+      "error": "ReadTimeout: The read operation timed out",
+      "count": 2
+    },
+    {
+      "resolver": "opendns",
+      "protocol": "dot",
+      "error": "TimeoutError: timed out",
+      "count": 1
+    },
+    {
+      "resolver": "opendns",
+      "protocol": "dot",
+      "error": "OSError: [Errno 51] Network is unreachable",
+      "count": 18
+    },
+    {
+      "resolver": "nextdns",
+      "protocol": "doh",
+      "error": "ConnectError: [Errno 51] Network is unreachable",
+      "count": 37
+    },
+    {
+      "resolver": "nextdns",
+      "protocol": "dot",
+      "error": "OSError: [Errno 51] Network is unreachable",
+      "count": 47
+    },
+    {
+      "resolver": "cloudflare",
+      "protocol": "doh",
+      "error": "ConnectError: [Errno 51] Network is unreachable",
+      "count": 30
+    },
+    {
+      "resolver": "quad9",
+      "protocol": "dot",
+      "error": "OSError: [Errno 51] Network is unreachable",
+      "count": 50
+    },
+    {
+      "resolver": "cloudflare",
+      "protocol": "dot",
+      "error": "OSError: [Errno 51] Network is unreachable",
+      "count": 10
+    },
+    {
+      "resolver": "opendns",
+      "protocol": "doh",
+      "error": "ConnectError: [Errno 51] Network is unreachable",
+      "count": 40
+    },
+    {
+      "resolver": "google",
+      "protocol": "do53",
+      "error": "Timeout: The DNS operation timed out.",
+      "count": 7
+    },
+    {
+      "resolver": "nextdns",
+      "protocol": "dot",
+      "error": "Timeout: The DNS operation timed out.",
+      "count": 1
+    },
+    {
+      "resolver": "nextdns",
+      "protocol": "doh",
+      "error": "ReadError: [Errno 54] Connection reset by peer",
+      "count": 1
+    },
+    {
+      "resolver": "cloudflare",
+      "protocol": "dot",
+      "error": "ConnectionResetError: [Errno 54] Connection reset by peer",
+      "count": 1
+    },
+    {
+      "resolver": "google",
+      "protocol": "doh",
+      "error": "ConnectTimeout: timed out",
+      "count": 1
+    },
+    {
+      "resolver": "nextdns",
+      "protocol": "dot",
+      "error": "TimeoutError: timed out",
+      "count": 1
+    },
+    {
+      "resolver": "cloudflare",
+      "protocol": "do53",
+      "error": "Timeout: The DNS operation timed out.",
+      "count": 5
+    },
+    {
+      "resolver": "google",
+      "protocol": "dot",
+      "error": "OSError: [Errno 51] Network is unreachable",
+      "count": 25
+    },
+    {
+      "resolver": "quad9",
+      "protocol": "doh",
+      "error": "ConnectError: [Errno 51] Network is unreachable",
+      "count": 10
+    },
+    {
+      "resolver": "quad9",
+      "protocol": "do53",
+      "error": "Timeout: The DNS operation timed out.",
+      "count": 5
+    }
+  ]
+}

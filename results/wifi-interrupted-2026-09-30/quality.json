@@ -1,0 +1,260 @@
+[
+  {
+    "run": "data/wifi-2026-09-30",
+    "passed": true,
+    "errors": [],
+    "warnings": [
+      "Observed failures are retained; latency estimates are success-conditioned",
+      "Network-unreachable errors occurred; do not attribute this interruption to individual resolver infrastructure",
+      "Large wall-clock gaps occurred; possible suspension/interruption, not established by timing alone"
+    ],
+    "measurements": 3750,
+    "all_observations": 4318,
+    "configurations": 25,
+    "status_counts": {
+      "ok": 3387,
+      "error": 329,
+      "timeout": 34
+    },
+    "http_versions": {
+      "HTTP/2": 1375
+    },
+    "tls_versions": {
+      "TLSv1.3": 2664
+    },
+    "warm_reconnections": 170,
+    "network_unreachable_observations": 294,
+    "large_time_gaps": [
+      {
+        "after_sequence": 3210,
+        "seconds": 78.177218,
+        "start_utc": "2026-09-30T15:00:18.390251+00:00",
+        "end_utc": "2026-09-30T15:01:36.567469+00:00"
+      },
+      {
+        "after_sequence": 3311,
+        "seconds": 47.499022,
+        "start_utc": "2026-09-30T15:01:50.729913+00:00",
+        "end_utc": "2026-09-30T15:02:38.228935+00:00"
+      },
+      {
+        "after_sequence": 3352,
+        "seconds": 151.664027,
+        "start_utc": "2026-09-30T15:02:40.705494+00:00",
+        "end_utc": "2026-09-30T15:05:12.369521+00:00"
+      },
+      {
+        "after_sequence": 3392,
+        "seconds": 4889.867904,
+        "start_utc": "2026-09-30T15:05:22.481475+00:00",
+        "end_utc": "2026-09-30T16:26:52.349379+00:00"
+      },
+      {
+        "after_sequence": 3432,
+        "seconds": 916.83723,
+        "start_utc": "2026-09-30T16:26:59.409421+00:00",
+        "end_utc": "2026-09-30T16:42:16.246651+00:00"
+      },
+      {
+        "after_sequence": 3446,
+        "seconds": 697.524115,
+        "start_utc": "2026-09-30T16:42:20.662096+00:00",
+        "end_utc": "2026-09-30T16:53:58.186211+00:00"
+      },
+      {
+        "after_sequence": 3477,
+        "seconds": 253.60304,
+        "start_utc": "2026-09-30T16:54:04.787501+00:00",
+        "end_utc": "2026-09-30T16:58:18.390541+00:00"
+      },
+      {
+        "after_sequence": 3527,
+        "seconds": 60.370824,
+        "start_utc": "2026-09-30T16:58:33.576397+00:00",
+        "end_utc": "2026-09-30T16:59:33.947221+00:00"
+      },
+      {
+        "after_sequence": 3590,
+        "seconds": 80.839506,
+        "start_utc": "2026-09-30T16:59:52.109953+00:00",
+        "end_utc": "2026-09-30T17:01:12.949459+00:00"
+      },
+      {
+        "after_sequence": 3637,
+        "seconds": 33.180961,
+        "start_utc": "2026-09-30T17:01:24.071291+00:00",
+        "end_utc": "2026-09-30T17:01:57.252252+00:00"
+      },
+      {
+        "after_sequence": 3678,
+        "seconds": 54.937677,
+        "start_utc": "2026-09-30T17:02:05.709856+00:00",
+        "end_utc": "2026-09-30T17:03:00.647533+00:00"
+      },
+      {
+        "after_sequence": 3680,
+        "seconds": 50.585219,
+        "start_utc": "2026-09-30T17:03:03.709189+00:00",
+        "end_utc": "2026-09-30T17:03:54.294408+00:00"
+      },
+      {
+        "after_sequence": 3727,
+        "seconds": 59.367424,
+        "start_utc": "2026-09-30T17:04:03.137042+00:00",
+        "end_utc": "2026-09-30T17:05:02.504466+00:00"
+      },
+      {
+        "after_sequence": 3783,
+        "seconds": 218.280444,
+        "start_utc": "2026-09-30T17:05:11.835228+00:00",
+        "end_utc": "2026-09-30T17:08:50.115672+00:00"
+      }
+    ],
+    "failure_details": [
+      {
+        "resolver": "quad9",
+        "protocol": "dot",
+        "error": "EOFError: EOF",
+        "count": 56
+      },
+      {
+        "resolver": "quad9",
+        "protocol": "doh",
+        "error": "RemoteProtocolError: Server disconnected",
+        "count": 4
+      },
+      {
+        "resolver": "quad9",
+        "protocol": "dot",
+        "error": "Timeout: The DNS operation timed out.",
+        "count": 1
+      },
+      {
+        "resolver": "nextdns",
+        "protocol": "do53",
+        "error": "Timeout: The DNS operation timed out.",
+        "count": 9
+      },
+      {
+        "resolver": "opendns",
+        "protocol": "do53",
+        "error": "Timeout: The DNS operation timed out.",
+        "count": 1
+      },
+      {
+        "resolver": "nextdns",
+        "protocol": "doh",
+        "error": "ReadTimeout: The read operation timed out",
+        "count": 2
+      },
+      {
+        "resolver": "opendns",
+        "protocol": "dot",
+        "error": "TimeoutError: timed out",
+        "count": 1
+      },
+      {
+        "resolver": "opendns",
+        "protocol": "dot",
+        "error": "OSError: [Errno 51] Network is unreachable",
+        "count": 18
+      },
+      {
+        "resolver": "nextdns",
+        "protocol": "doh",
+        "error": "ConnectError: [Errno 51] Network is unreachable",
+        "count": 37
+      },
+      {
+        "resolver": "nextdns",
+        "protocol": "dot",
+        "error": "OSError: [Errno 51] Network is unreachable",
+        "count": 47
+      },
+      {
+        "resolver": "cloudflare",
+        "protocol": "doh",
+        "error": "ConnectError: [Errno 51] Network is unreachable",
+        "count": 30
+      },
+      {
+        "resolver": "quad9",
+        "protocol": "dot",
+        "error": "OSError: [Errno 51] Network is unreachable",
+        "count": 50
+      },
+      {
+        "resolver": "cloudflare",
+        "protocol": "dot",
+        "error": "OSError: [Errno 51] Network is unreachable",
+        "count": 10
+      },
+      {
+        "resolver": "opendns",
+        "protocol": "doh",
+        "error": "ConnectError: [Errno 51] Network is unreachable",
+        "count": 40
+      },
+      {
+        "resolver": "google",
+        "protocol": "do53",
+        "error": "Timeout: The DNS operation timed out.",
+        "count": 7
+      },
+      {
+        "resolver": "nextdns",
+        "protocol": "dot",
+        "error": "Timeout: The DNS operation timed out.",
+        "count": 1
+      },
+      {
+        "resolver": "nextdns",
+        "protocol": "doh",
+        "error": "ReadError: [Errno 54] Connection reset by peer",
+        "count": 1
+      },
+      {
+        "resolver": "cloudflare",
+        "protocol": "dot",
+        "error": "ConnectionResetError: [Errno 54] Connection reset by peer",
+        "count": 1
+      },
+      {
+        "resolver": "google",
+        "protocol": "doh",
+        "error": "ConnectTimeout: timed out",
+        "count": 1
+      },
+      {
+        "resolver": "nextdns",
+        "protocol": "dot",
+        "error": "TimeoutError: timed out",
+        "count": 1
+      },
+      {
+        "resolver": "cloudflare",
+        "protocol": "do53",
+        "error": "Timeout: The DNS operation timed out.",
+        "count": 5
+      },
+      {
+        "resolver": "google",
+        "protocol": "dot",
+        "error": "OSError: [Errno 51] Network is unreachable",
+        "count": 25
+      },
+      {
+        "resolver": "quad9",
+        "protocol": "doh",
+        "error": "ConnectError: [Errno 51] Network is unreachable",
+        "count": 10
+      },
+      {
+        "resolver": "quad9",
+        "protocol": "do53",
+        "error": "Timeout: The DNS operation timed out.",
+        "count": 5
+      }
+    ]
+  }
+]

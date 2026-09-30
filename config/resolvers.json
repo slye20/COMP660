@@ -1,0 +1,7 @@
+[
+  {"name": "cloudflare", "ip": "1.1.1.1", "dot_host": "one.one.one.one", "doh_host": "cloudflare-dns.com", "doh_path": "/dns-query"},
+  {"name": "google", "ip": "8.8.8.8", "dot_host": "dns.google", "doh_host": "dns.google", "doh_path": "/dns-query"},
+  {"name": "quad9", "ip": "9.9.9.9", "dot_host": "dns.quad9.net", "doh_host": "dns.quad9.net", "doh_path": "/dns-query"},
+  {"name": "nextdns", "ip": "45.90.28.0", "dot_host": "dns.nextdns.io", "doh_host": "dns.nextdns.io", "doh_path": "/"},
+  {"name": "opendns", "ip": "208.67.222.222", "dot_host": "dns.opendns.com", "doh_host": "dns.opendns.com", "doh_path": "/dns-query"}
+]

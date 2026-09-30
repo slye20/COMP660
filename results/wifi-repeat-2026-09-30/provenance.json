@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    {
+      "run": "data/wifi-repeat-2026-09-30",
+      "sha256": "e910734f4acb98ab60659626163ab9be2bf4f9324a645d500633bb9608ddcf4f",
+      "state": "complete"
+    }
+  ],
+  "bootstrap_draws": 5000,
+  "analysis_sha256": "2b3fc220f70bb24fe6e086aaa60c3fdada63f63bae3f8c1f52be2804c32b5c15",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "seed": 631,
+  "analysis": "block-weighted effects; success-conditioned"
+}

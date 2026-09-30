@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    {
+      "run": "data/pilot-wifi-2026-09-30",
+      "sha256": "796e19aca6857a77530568f8cda13625e9660fe26ed61e182db33e917e564f31",
+      "state": "complete"
+    }
+  ],
+  "bootstrap_draws": 5000,
+  "analysis_sha256": "92b11c6a5c55da2b281df3c22b2aa28ba13ef5391bb28c3ac1f89e30cd23ed41",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "seed": 631,
+  "analysis": "block-weighted effects; success-conditioned"
+}

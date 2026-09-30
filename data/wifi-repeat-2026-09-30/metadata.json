@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "run_id": "be1b9afd68994770af5856369f26e19e",
+  "started_utc": "2026-09-30T17:29:51.690793+00:00",
+  "state": "complete",
+  "network": "wifi",
+  "network_note": "Separate repeat after network-unreachable interruption in the prior run. Default route en0 is Wi-Fi; macOS idle sleep inhibited with caffeinate -i. Upstream access type, VPN state, and background traffic unverified.",
+  "profile": "unshaped",
+  "emulation": null,
+  "seed": 632,
+  "trials_per_state": 150,
+  "batch_size": 5,
+  "timeout_seconds_per_io": 3.0,
+  "pause_seconds": 0.05,
+  "qtype": "A",
+  "resolvers": [
+    {
+      "name": "cloudflare",
+      "ip": "1.1.1.1",
+      "dot_host": "one.one.one.one",
+      "doh_host": "cloudflare-dns.com",
+      "doh_path": "/dns-query"
+    },
+    {
+      "name": "google",
+      "ip": "8.8.8.8",
+      "dot_host": "dns.google",
+      "doh_host": "dns.google",
+      "doh_path": "/dns-query"
+    },
+    {
+      "name": "quad9",
+      "ip": "9.9.9.9",
+      "dot_host": "dns.quad9.net",
+      "doh_host": "dns.quad9.net",
+      "doh_path": "/dns-query"
+    },
+    {
+      "name": "nextdns",
+      "ip": "45.90.28.0",
+      "dot_host": "dns.nextdns.io",
+      "doh_host": "dns.nextdns.io",
+      "doh_path": "/"
+    },
+    {
+      "name": "opendns",
+      "ip": "208.67.222.222",
+      "dot_host": "dns.opendns.com",
+      "doh_host": "dns.opendns.com",
+      "doh_path": "/dns-query"
+    }
+  ],
+  "domains": [
+    "example.com",
+    "example.org",
+    "iana.org",
+    "ietf.org",
+    "icann.org",
+    "wikipedia.org",
+    "mozilla.org",
+    "python.org",
+    "github.com",
+    "unc.edu",
+    "mit.edu",
+    "stanford.edu",
+    "berkeley.edu",
+    "cornell.edu",
+    "princeton.edu",
+    "harvard.edu",
+    "w3.org",
+    "kernel.org",
+    "debian.org",
+    "ubuntu.com"
+  ],
+  "protocols": [
+    "do53",
+    "dot",
+    "doh"
+  ],
+  "source_sha256": "3eff6489a0bd1489b6152593337c32058f812d0e0fde5d22e108ad5f65d11e49",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7",
+  "packages": {
+    "dnspython": "2.8.0",
+    "httpx": "0.28.1",
+    "httpcore": "1.0.9",
+    "h2": "4.4.1"
+  },
+  "design": "randomized paired blocks, fixed cache-favored names, IPv4 pinned endpoints, no retries",
+  "proxy_environment_used": false,
+  "finished_utc": "2026-09-30T17:38:29.417763+00:00",
+  "measurement_counts": {
+    "ok": 3708,
+    "error": 40,
+    "timeout": 2
+  },
+  "rows": 4321
+}

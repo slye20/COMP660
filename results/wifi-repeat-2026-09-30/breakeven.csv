@@ -1,0 +1,11 @@
+network,profile,resolver,protocol,setup_ms,warm_ms,do53_mean_ms,n_to_5pct_setup_overhead,n_to_match_do53,do53_status,model
+wifi,unshaped,cloudflare,doh,43.09610987509657,27.95833332101504,29.16812915325165,31,36,finite_model_estimate,"setup/N + warm_mean; success-conditioned, constant latency assumption"
+wifi,unshaped,cloudflare,dot,40.07002588311831,22.96498249252637,29.16812915325165,35,7,finite_model_estimate,"setup/N + warm_mean; success-conditioned, constant latency assumption"
+wifi,unshaped,google,doh,31.436194483439127,19.30109169801076,18.336540269851685,33,,no_finite_crossover,"setup/N + warm_mean; success-conditioned, constant latency assumption"
+wifi,unshaped,google,dot,31.92664448420207,16.15372855703036,18.336540269851685,40,15,finite_model_estimate,"setup/N + warm_mean; success-conditioned, constant latency assumption"
+wifi,unshaped,nextdns,doh,155.3325281627973,63.03656721790632,59.635666656814166,50,,no_finite_crossover,"setup/N + warm_mean; success-conditioned, constant latency assumption"
+wifi,unshaped,nextdns,dot,153.368440284729,49.05998893062274,59.635666656814166,63,15,finite_model_estimate,"setup/N + warm_mean; success-conditioned, constant latency assumption"
+wifi,unshaped,opendns,doh,47.648541915416715,35.14814836144447,36.77851167400678,28,30,finite_model_estimate,"setup/N + warm_mean; success-conditioned, constant latency assumption"
+wifi,unshaped,opendns,dot,54.71724027673403,39.7495175464948,36.77851167400678,28,,no_finite_crossover,"setup/N + warm_mean; success-conditioned, constant latency assumption"
+wifi,unshaped,quad9,doh,39.2837158370018,28.917093376866703,28.16338365594546,28,,no_finite_crossover,"setup/N + warm_mean; success-conditioned, constant latency assumption"
+wifi,unshaped,quad9,dot,41.96823323395715,21.107221059109037,28.16338365594546,40,6,finite_model_estimate,"setup/N + warm_mean; success-conditioned, constant latency assumption"
