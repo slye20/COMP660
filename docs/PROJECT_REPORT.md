@@ -109,6 +109,23 @@ The analysis models average encrypted-query cost over a connection as `S/N + W`,
 
 The [breakeven output](../results/wifi-repeat-2026-09-30/breakeven.csv) contains finite crossover estimates for six combinations and no finite crossover under the model for four. These are extrapolations, not directly observed thresholds. The measured sessions have five warm queries plus their initial warmup, while several modeled thresholds require much longer sessions. Longer-batch experiments are needed before presenting these values as measured breakeven behavior.
 
+### Planned Wi-Fi follow-up: directly measure amortization
+
+The primary run collected 150 warm attempts per resolver/protocol combination as **30 separate sessions of five measured warm queries**, each preceded by an initial warmup query. This supplies repeated measurements of short-session reuse, but it does not directly establish the behavior of one connection serving tens or hundreds of queries. Since amortization is a central research objective, longer-session validation is a priority before expanding the network-condition study.
+
+The existing model predicts Do53 crossover query counts of 6 for Quad9 DoT, 7 for Cloudflare DoT, 15 for Google DoT and NextDNS DoT, 30 for OpenDNS DoH, and 36 for Cloudflare DoH. These estimates come from the existing Wi-Fi run and may change in a repeat. The other four combinations have no finite crossover under the current model.
+
+The proposed follow-up is:
+
+1. Prepare the analysis to report cumulative average latency including connection setup and the initial query. Keep the initial query separate from verified-warm latency summaries, while including its full cost in session amortization. Report how many sessions contribute at each query count, and report failures and reconnection costs alongside uninterrupted-session curves.
+2. Run a small Cloudflare pilot with one initial query followed by **100 measured queries per session**. Check timing, reuse detection, failure handling, and cumulative averages before the full run.
+3. Repeat across **all five resolvers**, targeting **30 sessions of 100 measured warm queries per resolver/protocol combination**, with fresh Do53 and cold-connection measurements. Retain matched workloads, randomized scheduling, raw observations, integrity audits, and macOS idle-sleep prevention. Record network context and preserve this follow-up as a separate dataset.
+4. Compare measured average cost at increasing query counts with the contemporaneous Do53 baseline and the model predictions. Use session-level uncertainty estimates and report disconnects and reconnections; do not treat only surviving connections as representative of all sessions.
+
+A 100-query target covers the current modeled crossover range and allows inspection of later connection behavior. Measurements at intermediate query counts can be extracted from each long session. This follow-up can run on macOS; Linux is needed for the planned Mininet/netem shaping experiments.
+
+**Status: planned; no longer-session follow-up results have been collected.** After the all-five-resolver run, update this section with the dataset location, audit outcome, measured cumulative curves, uncertainty, reliability, and whether each predicted crossover was observed, not observed within the tested range, or remained inconclusive. The existing Wi-Fi findings remain the short-session baseline.
+
 ## What remains unfinished
 
 Only **one of the six planned network conditions** has a primary measured dataset. The extra interrupted run and development pilot do not count as additional conditions.
@@ -122,23 +139,25 @@ Only **one of the six planned network conditions** has a primary measured datase
 | Collect high-latency emulation | No measurements | Same complete measurement design |
 | Collect real cellular anchor | No tethered-cellular measurements | Verify cellular routing, record network context, and collect all 25 configurations |
 | Assess the network-quality relationship | Analysis code exists; data insufficient | Analyze the completed condition matrix and assess whether the observed relationships differ across resolvers |
-| Validate longer-session breakeven behavior | Model estimates and short-session curves available | Measure longer batches around predicted crossover sizes and compare observations with the model |
+| Validate longer-session breakeven behavior | All-five-resolver Wi-Fi follow-up planned; model estimates and short-session curves available | Complete the pilot and longer-session run, include initial setup and query costs, and compare measured curves and reliability with model predictions |
 | Strengthen repeatability and diagnostics | One primary Wi-Fi session; disconnect causes unresolved | Repeat sessions at different times and investigate recurrent disconnects without discarding unsuccessful requests |
 | Complete the final research deliverables | Proposal, code, and preliminary reports available | Finalize the full study report and presentation after the missing experiments and interpretation |
 
-At the present sampling target, the four emulated profiles require **15,000 additional measured attempts**, and the cellular anchor requires **3,750**. Thus, **18,750 additional attempts** are needed to populate the five missing conditions once, excluding validation runs, priming, warmups, and recommended replications. One complete six-condition matrix would contain 22,500 measured attempts.
+At the present short-session sampling target, the four emulated profiles require **15,000 additional measured attempts**, and the cellular anchor requires **3,750**. Thus, **18,750 additional attempts** are needed to populate the five missing conditions once, excluding validation runs, priming, warmups, recommended replications, and the new longer-session Wi-Fi follow-up. One complete six-condition short-session matrix would contain 22,500 measured attempts. Use the longer-session findings to decide whether additional session lengths are needed in the later network conditions before launching those sweeps.
 
 ## Recommended sequence for the remaining work
 
-First, provision a dedicated Linux machine or VM and run the existing Mininet smoke test against one resolver. Verify added RTT, downlink shaping, connectivity, and cleanup before launching the full sweep. The implemented short ping and throughput checks are useful initial checks; longer local calibration is needed to characterize low loss rates and bandwidth accurately.
+First, complete the longer-session Wi-Fi pilot and all-five-resolver follow-up described above, then update this report with the measured amortization results. Resolve analysis or instrumentation issues exposed by the pilot before collecting the full follow-up.
 
-Second, run all four profiles with the same domain workload, batch size, pacing, and trial count. The configured values are 10, 53.3, 53.3, and 150 ms of **added RTT**, with downlink loss of 0%, 0.5%, 1.5%, and 2.1%, respectively. The delay is applied once on the downlink and is added to the existing Internet path. These profiles do not establish an absolute total RTT, and this downlink-only design is not an exact replication of the original paper's asymmetric bidirectional emulation. Optional corruption and duplication should remain separate from the core sweep.
+Second, provision a dedicated Linux machine or VM and run the existing Mininet smoke test against one resolver. Verify added RTT, downlink shaping, connectivity, and cleanup before launching the full sweep. The implemented short ping and throughput checks are useful initial checks; longer local calibration is needed to characterize low loss rates and bandwidth accurately.
 
-Third, collect the cellular anchor using actual tethered cellular access. Record the carrier, tethering method, location at an appropriate level of detail, signal conditions where available, VPN state, and competing traffic. Avoid inadvertently sending the experiment through another Wi-Fi or wired connection.
+Third, run all four profiles with a consistent measurement design informed by the Wi-Fi follow-up. The configured values are 10, 53.3, 53.3, and 150 ms of **added RTT**, with downlink loss of 0%, 0.5%, 1.5%, and 2.1%, respectively. The delay is applied once on the downlink and is added to the existing Internet path. These profiles do not establish an absolute total RTT, and this downlink-only design is not an exact replication of the original paper's asymmetric bidirectional emulation. Optional corruption and duplication should remain separate from the core sweep.
 
-Fourth, analyze the condition matrix and repeat selected experiments to test stability over time. The current regressions fit separate predictors and are exploratory. Because profiles jointly change several network properties, those fits cannot isolate the causal contribution of RTT, loss, or bandwidth. Repeated sessions and a model that explicitly compares resolver responses to network conditions would strengthen the answer to the central question. Do53 latency should remain described as a resolver-and-network response-time proxy, rather than pure network RTT.
+Fourth, collect the cellular anchor using actual tethered cellular access. Record the carrier, tethering method, location at an appropriate level of detail, signal conditions where available, VPN state, and competing traffic. Avoid inadvertently sending the experiment through another Wi-Fi or wired connection.
 
-Finally, perform longer-session measurements for the proposed crossover behavior, investigate the observed disconnects, and finish the final report and presentation. Investigations should preserve the original observations and document any client or endpoint changes as a new measurement version.
+Fifth, analyze the condition matrix and repeat selected experiments to test stability over time. The current regressions fit separate predictors and are exploratory. Because profiles jointly change several network properties, those fits cannot isolate the causal contribution of RTT, loss, or bandwidth. Repeated sessions and a model that explicitly compares resolver responses to network conditions would strengthen the answer to the central question. Do53 latency should remain described as a resolver-and-network response-time proxy, rather than pure network RTT.
+
+Finally, investigate recurrent disconnects, validate crossover predictions under additional conditions where needed, and finish the final report and presentation. Investigations should preserve the original observations and document any client or endpoint changes as a new measurement version.
 
 ## Current conclusion
 
